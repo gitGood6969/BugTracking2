@@ -38,14 +38,14 @@ public class UserLoginUI
                 // Check Login Credentials Match
                 if(loginController.ValidateUser(userName, password) == true)
                 { // Login Successful [Match]
-                    int[] userID = loginController.getUser(userName, password); // stopped here
+                    int[] userID = loginController.getUser(userName, password); 
                     if (userID[0] >= 1 && userID[0] <=4)
                     {
                         userRole = userID[0];
                         uID = userID[1];
                         // Transition to relevant scene
                     }
-                    else// Display error message here! 
+                    else// Display error message! 
                     {System.out.println("No role found.");}  
 
                     System.out.println("Authenticated");

@@ -8,7 +8,7 @@ public class UserLoginController
     public UserLoginController(){}
     
     // Auxiliary Methods
-    public boolean ValidateUser(String userName, String userPassword) // Joseph
+    public boolean ValidateUser(String userName, String userPassword)
     {
         User tempUser = new User(); // Create Entity class User 
         return tempUser.LoginStatus(userName, userPassword);

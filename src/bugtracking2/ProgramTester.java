@@ -1,3 +1,4 @@
+// JUnit class
 // Package
 package bugtracking2;
 
